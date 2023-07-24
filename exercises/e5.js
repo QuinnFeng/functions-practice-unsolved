@@ -12,7 +12,7 @@
  */
 
 // Your code goes here...
-
+const getDiffTwentySeven = (num) => num < 27 ? 27-num:2*(num-27);
 
 
 
@@ -25,7 +25,7 @@
 
 // Your code goes here
 
-
+const sumOfTwoIntegers = (num1,num2) => num1!=num2? num1+num2 : 6 * num1;
 
 
 /** =========================
@@ -38,7 +38,7 @@
  */
 
 // Your code goes here...
-
+const isOneOfThemOrTheirSumIsFourty = (num1,num2) => num1===40||num2===40||num1+num2===40; 
 
 
 
